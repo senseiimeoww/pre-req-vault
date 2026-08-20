@@ -12,10 +12,10 @@ A simple Solana vault program built with **Anchor**. Each user gets their own va
 
 This program acts as a personal vault for SOL. It supports four actions:
 
-1. **Initialize** — set up a new vault
-2. **Deposit** — add SOL to the vault
-3. **Withdraw** — remove SOL from the vault (with proof of completion)
-4. **Close** — shut down the vault and reclaim funds
+1. **Initialize** - set up a new vault
+2. **Deposit** - add SOL to the vault
+3. **Withdraw** - remove SOL from the vault (with proof of completion)
+4. **Close** - shut down the vault and reclaim funds
 
 Each user has exactly **one vault**, and the vault's address is deterministic — the same user wallet always derives the same vault address.
 
