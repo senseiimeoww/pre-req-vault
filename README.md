@@ -47,7 +47,7 @@ Both account addresses are derived (PDA-style) from the user's wallet, so a give
 ### 2. Deposit
 
 - The user sends SOL into the vault account.
-- The program simply moves the funds — no additional logic.
+- The program simply moves the funds - no additional logic.
 
 ### 3. Withdraw
 
